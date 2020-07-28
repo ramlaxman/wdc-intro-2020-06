@@ -1,4 +1,6 @@
 def menu(*args):
-    choice = raw_input("Enter a choice: ")
+    while True:
+        choice = raw_input("Enter a choice: ")
 
-    return choice
+        if choice in args:
+            return choice
