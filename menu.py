@@ -1,6 +1,8 @@
 def menu(*args):
     while True:
-        choice = raw_input("Enter a choice: ")
+        choices = '/'.join(args)
+
+        choice = raw_input("Enter a choice {0}: ".format(choices)
 
         if choice in args:
             return choice
