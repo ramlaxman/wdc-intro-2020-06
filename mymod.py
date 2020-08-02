@@ -9,4 +9,4 @@ def hello(name):
     return 'Hello, {0}'.format(name)
 
 
-print('Goodbye from mymod!')
+print('Goodbye from {0}!'.format(__name__))
