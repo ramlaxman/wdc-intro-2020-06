@@ -1,6 +1,3 @@
-if __name__ == '__main__':
-    print('Hello from {0}!'.format(__name__))
-
 x = 100
 
 y = [10, 20, 30]
