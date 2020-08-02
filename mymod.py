@@ -1,4 +1,4 @@
-print('Hello from mymod!')
+print('Hello from {0}!'.format(__name__))
 
 x = 100
 
